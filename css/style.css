@@ -1,0 +1,42 @@
+body{
+    font-family: 'Dancing Script';
+}
+.back-img{
+    background-image: url("../img/back-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    height: 100vh;
+}
+.container{
+    padding: 100px 0;
+    background-color: #030407;
+    max-width: 100%;
+}
+.container img{
+    border-radius: 25px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 5px 5px 15px 5px rgba(243, 239, 239, 0.75);
+}
+.text-color{
+    color: goldenrod;
+}
+
+@media(max-width: 990px){
+    .back-img{
+        height: 50vh;
+    }
+    .container img{
+        width: 90%;
+        height: 40%;
+    }
+    .img{
+        max-width: 100%;
+    }
+    .col-width{
+        padding: 0 0 0 10%;
+        width: 100%;
+    }
+}
