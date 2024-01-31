@@ -1,5 +1,5 @@
 body{
-    font-family: 'Dancing Script';
+    font-family: 'Caveat';
 }
 .back-img{
     background-image: url("../img/back-img.jpg");
@@ -23,10 +23,21 @@ body{
 .text-color{
     color: goldenrod;
 }
+.text-size{
+    font-size: 40px;
+    font-weight: 600;
+}
+.inst{
+    color: #fff;
+}
+.inst:hover{
+        background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+        border-radius: 15px;
 
+}
 @media(max-width: 990px){
     .back-img{
-        height: 50vh;
+        height: 45vh;
     }
     .container img{
         width: 90%;
