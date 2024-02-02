@@ -13,6 +13,7 @@ body{
     padding: 100px 0;
     background-color: #030407;
     max-width: 100%;
+    overflow-x: hidden;
 }
 .container img{
     border-radius: 25px;
