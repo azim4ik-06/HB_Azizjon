@@ -20,6 +20,12 @@ body{
     height: 500px;
     box-shadow: 5px 5px 15px 5px rgba(243, 239, 239, 0.75);
 }
+.img{
+    width: 500px;
+}
+.aos-animate{
+    width: 500px;
+}
 .text-color{
     color: goldenrod;
 }
@@ -39,15 +45,24 @@ body{
     .back-img{
         height: 45vh;
     }
+    .d-block{
+        height: 400px;
+    }
     .container img{
         width: 90%;
         height: 40%;
     }
+    .text-size{
+        font-size: 30px;
+    }
     .img{
         max-width: 100%;
     }
+    .aos-animate{
+        width: 100%;
+    }
     .col-width{
-        padding: 0 0 0 10%;
+        padding: 0 0 0 8%;
         width: 100%;
     }
 }
