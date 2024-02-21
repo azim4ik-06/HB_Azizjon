@@ -1,6 +1,9 @@
 const audio = document.querySelector('#myAudio');
 
-window.addEventListener("click", handleClick);
+window.addEventListener("scroll", handleClick);
 function handleClick() {
-    audio.play();
+    const scrollValue = window.scrollY;
+    if (scrollValue >= 0) {
+        audio.play();
+    }
 }
